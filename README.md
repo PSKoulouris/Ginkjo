@@ -1,0 +1,1 @@
+# Repository for the development of Ginkjo online platform, developped in three sprints: Sprint1 for the front-end with Menu available in files.pdf; sprint2 for the back-end with a reservation system; and sprint3 for the front-end with Menu available on Site.
