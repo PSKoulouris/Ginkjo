@@ -554,9 +554,13 @@ video {
   display: none;
 }
 
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
+body {
+  font-family: 'Inter', serif;
+}
+
+h1, h2, h3, h4, h5, h6, .julius-sans-one {
+  font-family: 'Julius Sans One', serif;
+  color: #22c55e;
 }
 
 .text-2xl {
@@ -564,14 +568,17 @@ video {
   line-height: 2rem;
 }
 
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
 .text-red-500 {
   --tw-text-opacity: 1;
   color: rgb(239 68 68 / var(--tw-text-opacity, 1));
 }
-
-.text-blue-500 {
-  --tw-text-opacity: 1;
-  color: rgb(59 130 246 / var(--tw-text-opacity, 1));
-}
-
-
