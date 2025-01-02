@@ -15,37 +15,40 @@
 
 <!-- navigation bar -->
 
-<nav> 
-    <div>
-        <a class="julius-sans-one px-6 py-4 bg-red-500" href="#about">About Us</a>
-    </div>
+<nav class="sticky top-0 w-full bg-navBar-gradient grid grid-cols-12 gap-4 px-6 py-3 content-center "> 
+
+  <!-- Colone 1 3/12 -->
+<div class="col-span-3 flex justify-between mt-12">
+    
+        <a class="julius-sans-one text-lg text-white px-6 py-4 inline-block hover:text-gold" href="#about">About Us</a>
+    
 
 <!--drop down menu with block group and hidden-->
 
     <div class="inline-block group">
-        <span class=" bg-yellow-500 block w-full julius-sans-one px-6 py-4">Menu</span>
-        <div class=" bg-red-500 overflow-hidden max-h-0 transition-all duration-700 ease-in-out group-hover:max-h-[1500px] flex flex-col ">
-            <a class="julius-sans-one px-6 py-4" href="lunch">Lunch</a>
-            <a class="julius-sans-one px-6 py-4" href="afternoon">Afternoon</a>
-            <a class="julius-sans-one px-6 py-4" href="dinner">Dinner</a>
-            <a class="julius-sans-one px-6 py-4" href="drinks">Drinks</a>
+        <span class="block w-full julius-sans-one text-lg text-white px-6 py-4 hover:text-gold">Menu</span>
+        <div class=" overflow-hidden max-h-0 transition-all duration-700 ease-in-out group-hover:max-h-[1500px] flex flex-col ">
+            <a class="julius-sans-one text-lg text-white px-6 py-2 hover:text-gold" href="lunch">Lunch</a>
+            <a class="julius-sans-one text-lg text-white px-6 py-2 hover:text-gold" href="afternoon">Afternoon</a>
+            <a class="julius-sans-one text-lg text-white px-6 py-2 hover:text-gold" href="dinner">Dinner</a>
+            <a class="julius-sans-one text-lg text-white px-6 py-2 hover:text-gold" href="drinks">Drinks</a>
         </div>
     </div>
+  </div>
 
-<!-- Logo image PNG -->
+<!-- Colone 2 6/12 Logo image PNG -->
 
-    <div>
-        <img src="logoGinjo_translucid_PNG.png" alt="Ginkjo Logo" style="max-width: 510px; height: auto;">
-
+    <div class="col-span-6 flex items-center justify-center">
+        <img width="375" height="auto" src="logoGinjo_translucid_PNG.png" alt="Ginkjo Logo" >
     </div>
-
-    <div>
-        <a class="julius-sans-one px-6 py-4 bg-red-500" href="findUs">Find Us</a>
-    </div>
-        
-    <div>
-        <a class="julius-sans-one px-6 py-4 bg-red-500" href="contactUs">Contact Us</a>
-    </div>
+<!--Colone 3 3/12-->
+<div class="col-span-3 flex justify-between mt-12">
+    
+        <a class="julius-sans-one text-lg text-white px-6 py-4 inline-block hover:text-gold" href="findUs">Find Us</a>
+    
+        <a class="julius-sans-one text-lg text-white px-6 py-4 inline-block hover:text-gold" href="contactUs">Contact Us</a>
+  
+</div>
 
 </nav>
 
@@ -56,10 +59,10 @@
 <!-- Main content in one page design and 8 sections -->
 
 <!-- Section 1: Main Page -->
-
+<!--        
 <section>   
-   <p>section here</p>
-</section>
+   <img src="imagesCaroussel\Image_caroussel5_169_optimized.jpg" alt="Ginkjo main image">
+</section> -->
     
 <!-- Section 2: About -->
     
@@ -109,6 +112,7 @@
     <p>section here</p>  
 
 </section>
+
 
 
 </body>
