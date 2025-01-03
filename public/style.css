@@ -562,6 +562,10 @@ h1, h2, h3, h4, h5, h6, .julius-sans-one {
   font-family: 'Julius Sans One', serif;
 }
 
+h1, h2, h3, h4, h5, h6, p {
+  color: white;
+}
+
 .sticky {
   position: sticky;
 }
@@ -580,6 +584,10 @@ h1, h2, h3, h4, h5, h6, .julius-sans-one {
 
 .-mt-\[265px\] {
   margin-top: -265px;
+}
+
+.mb-5 {
+  margin-bottom: 1.25rem;
 }
 
 .mt-8 {
@@ -618,6 +626,10 @@ h1, h2, h3, h4, h5, h6, .julius-sans-one {
   width: 100%;
 }
 
+.max-w-\[500px\] {
+  max-width: 500px;
+}
+
 .grid-cols-12 {
   grid-template-columns: repeat(12, minmax(0, 1fr));
 }
@@ -632,6 +644,10 @@ h1, h2, h3, h4, h5, h6, .julius-sans-one {
 
 .items-center {
   align-items: center;
+}
+
+.justify-end {
+  justify-content: flex-end;
 }
 
 .justify-center {
@@ -694,6 +710,11 @@ h1, h2, h3, h4, h5, h6, .julius-sans-one {
   padding-right: 1.5rem;
 }
 
+.px-\[17px\] {
+  padding-left: 17px;
+  padding-right: 17px;
+}
+
 .py-0 {
   padding-top: 0px;
   padding-bottom: 0px;
@@ -709,8 +730,20 @@ h1, h2, h3, h4, h5, h6, .julius-sans-one {
   padding-bottom: 1rem;
 }
 
+.text-center {
+  text-align: center;
+}
+
+.text-10xl {
+  font-size: 8.917rem;
+}
+
 .text-lg {
   font-size: 1.44rem;
+}
+
+.text-xl {
+  font-size: 1.728rem;
 }
 
 .text-white {
