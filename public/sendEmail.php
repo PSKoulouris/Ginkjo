@@ -2,7 +2,8 @@
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
-require 'vendor/autoload.php';
+require '../vendor/autoload.php'; // Adjust the relative path if necessary
+
 
 $Myemail = 'philippe.koulouris@gmail.com';
 
@@ -12,7 +13,7 @@ $successMessage = ' ';
 echo 'sending ...';
 if (!empty($_POST))
 {
-  $name = $_POST['firstName'];
+  $name = $_POST['name'];
   $email = $_POST['email'];
   $message = $_POST['message'];
 
@@ -40,18 +41,27 @@ if (!empty($_POST))
 
       // Create a new PHPMailer instance
       $mail = new PHPMailer(exceptions: true);
+
+      $mail->SMTPOptions = array(
+        'ssl' => array(
+            'verify_peer' => false,
+            'verify_peer_name' => false,
+            'allow_self_signed' => true
+        )
+    );
+
       try {
             // Configure the PHPMailer instance
             $mail->isSMTP();
             $mail->Host = 'live.smtp.mailtrap.io';
             $mail->SMTPAuth = true;
-            $mail->Username = 'api';
+            $mail->Username = 'apismtp@mailtrap.io';
             $mail->Password = 'fb7297b1448416262f928675e68ccd66';
             $mail->SMTPSecure = 'tls';
             $mail->Port = 587;
            
             // Set the sender, recipient, subject, and body of the message 
-            $mail->setFrom($email);
+          
             $mail->addAddress($Myemail);
             $mail->setFrom($fromEmail);
             $mail->Subject = $emailSubject;
@@ -63,6 +73,7 @@ if (!empty($_POST))
             $successMessage = "<p style='color: green; '>Thank you for contacting us :)</p>";
       } catch (Exception $e) {
             $errorMessage = "<p style='color: red; '>Oops, something went wrong. Please try again later</p>";
+            $errorMessage .= "<p>Error: " . $mail->ErrorInfo . "</p>";  // Display PHPMailer's error message
 echo $errorMessage;
   }
 }

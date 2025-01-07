@@ -258,18 +258,18 @@
                         <!-- feedback message if fields are missing-->
                         <span id="feedback" class="text-lg text-red-500"> Ensure all fields are filled in.</span>
                     </div>
-                        <form action ="sendEmail.php" method="Post">
+                        <form action ="http://localhost/Ginkjo/public/sendEmail.php" method="Post">
                             <div class="flex flex-col">
                                <!-- <div class="flex mb-5"> -->
-                                    <input type="text" id="First name" name="First name" placeholder="Name" required
+                                    <input type="text" id="name" name="name" placeholder="Name" required
                                             class="w-full mb-5 mr-5 border-b border-white text-white placeholder:text-gray-400 text-lg bg-black focus:text-white outline-none">
                                 <!--    <input type ="text" id="Last Name" name="Last Name" placeholder="Last Name" required
                                             class="border-b border-white placeholder:text-gray-400 text-lg bg-black focus:text-white outline-none">
                                 </div>-->
 
-                                <input type="email" id="Email" name="Email" placeholder="Email" required
+                                <input type="email" id="email" name="email" placeholder="Email" required
                                     class=" mb-5 border-b border-white text-white placeholder:text-gray-400 text-lg bg-black focus:text-white outline-none">
-                                <textarea id="Message" name="Message" placeholder="Enter your message" rows="3" cols="50" required
+                                <textarea id="message" name="message" placeholder="Enter your message" rows="3" cols="50" required
                                     class="border-b border-white placeholder: mb-5 text-gray-400 text-md bg-black focus:text-white outline-none"></textarea>
                                 <input class="text-white julius-sans-one text-lg px-48 py-3 border border-gold rounded-lg hover:bg-gold" 
                                     type="submit" 
