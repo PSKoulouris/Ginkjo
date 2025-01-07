@@ -41,7 +41,7 @@ if (!empty($_POST))
 
       // Create a new PHPMailer instance
       $mail = new PHPMailer(exceptions: true);
-
+//disable the authentication process (optional for troubleshooting)
       $mail->SMTPOptions = array(
         'ssl' => array(
             'verify_peer' => false,
