@@ -5,7 +5,7 @@ window.addEventListener("load", () => {
   function autoSlide() {
     setInterval(() => {
       slide(getItemActiveIndex() + 1);
-    }, 5000); // Increase interval for better visibility
+    }, 3000); // Increase interval for better visibility
   }
   
   function slide(toIndex) {
