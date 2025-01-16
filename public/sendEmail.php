@@ -16,8 +16,8 @@ $errorMessage = ' ';
 $successMessage = ' ';
 
 //Captcha keys
-$siteKey = '6Le5o7AqAAAAAEQsnm90SvPU4KZxBAxEOb-iSwbx';
-$secret = '6Le5o7AqAAAAANEX_GDT6XU8BTVItHYNJod9DMIe';
+$siteKey = 'KEY HERE';
+$secret = 'KEY HERE';
 
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
@@ -98,8 +98,8 @@ if (!empty($_POST))
             $mail->isSMTP();
             $mail->Host = 'sandbox.smtp.mailtrap.io';
             $mail->SMTPAuth = true;
-            $mail->Username = '34068da005e343';
-            $mail->Password = '8a5a31438f1023';
+            $mail->Username = ' USERNAME';
+            $mail->Password = 'PASSWORD';
             $mail->SMTPSecure = 'tls';
             $mail->Port = 587;
            
