@@ -21,7 +21,7 @@
 <!-- navigation bar -->
 <nav class="sticky top-0 w-full bg-navBar-gradient grid grid-cols-12 gap-4 px-6 py-3 content-center z-10"> 
   <!-- Colone 1 3/12 -->
-    <div class="col-span-3 flex justify-between mt-8">
+    <div class="col-span-3 flex space-x-6 justify-center mt-8">
         <a class="julius-sans-one text-lg text-white px-6 py-4 inline-block hover:text-gold" href="#about">About Us</a>
 <!--drop down menu with block group and hidden-->
         <div class="inline-block group">
@@ -39,15 +39,15 @@
         <img width="400"  src="logoGinjo_translucid_PNG.png" alt="Ginkjo Logo" >
     </div>
     <!--Colone 3 3/12-->
-    <div class="col-span-3 flex justify-between mt-8">
+    <div class="col-span-3 flex space-x-6 justify-center mt-8">
         <a class="julius-sans-one text-lg text-white px-6 py-4 inline-block hover:text-gold" href="#findUs">Find Us</a>
-        <a class="julius-sans-one text-lg text-white px-6 py-4 inline-block hover:text-gold" href="#contactUs">Contact Us</a>
+        <a class="julius-sans-one text-lg text-white px-6 py-4 inline-block hover:text-gold" href="#home">Home</a>
     </div>
 </nav>
 
 <!-- Main content in one page design and 8 sections -->
 <!-- Section 1: Main Page -->
-<section class="-mt-[265px] relative w-full h-screen bg-black">
+<section id="home" class="-mt-[265px] relative w-full h-screen bg-black">
   <!-- Carousel Wrapper -->
   <div class="carousel relative h-full">
     <!-- Slide 1 -->
@@ -258,55 +258,14 @@
 </section>
 
 <!-- Section 7: Contact Us -->
-<section id="contactUs" class="w-full h-screen bg-black overflow-hidden">  
-
-    <div class="grid grid-cols-12">
-            <div class="col-span-6 flex flex-col justify-center items-center order-2">
-                <h1 class="text-10xl ">Contact</h1>
-                <div class="flex flex-col items-start">
-                    <div class="flex justify-between w-full">
-                        <p class="text-lg text-white mb-5">Tel: +352 33750X</p>
-                        <!-- feedback message if fields are missing-->
-                        <span id="feedback" class="text-lg text-red-500"> </span>
-                    </div>
-                        <form action ="http://localhost/Ginkjo/public/sendEmail.php" method="Post" id="contact-form">
-                            <div class="flex flex-col">
-                               <!-- <div class="flex mb-5"> -->
-                                    <input type="text" id="name" name="name" placeholder="Name" required
-                                            class="w-full mb-5 mr-5 border-b border-white text-white placeholder:text-gray-400 text-lg bg-black focus:text-white outline-none">
-                                <!--    <input type ="text" id="Last Name" name="Last Name" placeholder="Last Name" required
-                                            class="border-b border-white placeholder:text-gray-400 text-lg bg-black focus:text-white outline-none">
-                                </div>-->
-
-                                <input type="email" id="email" name="email" placeholder="Email" required
-                                    class=" mb-5 border-b border-white text-white placeholder:text-gray-400 text-lg bg-black focus:text-white outline-none">
-                                <textarea id="message" name="message" placeholder="Enter your message" rows="3" cols="50" required
-                                    class="border-b border-white placeholder: mb-5 text-gray-400 text-md bg-black focus:text-white outline-none"></textarea>
-                                <!-- data-sitekey= "<?php echo $siteKey; ?>" will be injected automatically -->
-                                    <input id="recaptcha-container" class="g-recaptcha text-white julius-sans-one text-lg px-48 py-3 border border-gold rounded-lg hover:bg-gold" 
-                                    type="submit" 
-                                    value="Send" 
-                                    data-sitekey= "6Le5o7AqAAAAAEQsnm90SvPU4KZxBAxEOb-iSwbx" 
-                                    data-callback="onRecaptchaSuccess"
-                                    >
-                            </div>
-                        </form>
-                    </div>
-                </div>
-
-                <div class="col-span-6 flex justify-end order-1">
-                    <img class="w-auto h-full" src="imagesBody_desktop\contactUs_optimized_desktop.jpg" alt="contactImage" loading="lazy">
-                </div>
-    </div>
-
-</section>
+<!-- Deleted -->
 
 <!-- Section 8: Find Us -->
 <section id="findUs" class="w-full bg-black overflow-hidden"> 
 
     <div class="grid grid-cols-12 mt-40">
         <!--Colone 1: information and social media-->
-        <div class="col-span-6 flex flex-col justify-center items-center">
+        <div class="col-span-6 flex flex-col justify-center items-center order-2">
             
             <div class="flex flex-col justify-center space-y-4">
                     <h1 class="text-10xl ">Find Us</h1>
@@ -349,7 +308,7 @@
             </div>
     </div>
         <!--Colone 2: Googler map-->
-        <div class="col-span-6 mr-10 ml-16"> 
+        <div class="col-span-6 mr-10 ml-16 order-1"> 
                 <iframe class="w-full h-[460px] mt-20 rounded-lg loading-lazy brightness-75 contrast-125 saturate-150"
                         src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1522.3546724102625!2d6.132796971707469!3d49.61561974863232!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2slu!4v1736185455589!5m2!1sen!2slu">
                 </iframe>
@@ -380,9 +339,10 @@
       document.getElementById('contact-form').submit();
   }
 </script>
--->
 
-<script src="RECAPTCHA.js"></script>
+
+<script src="RECAPTCHA.js"></script>-->
+
 <script src="Ginkjo.js"></script>
 </body>
 </html>
