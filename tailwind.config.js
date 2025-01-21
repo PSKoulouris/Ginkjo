@@ -1,6 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./public/**/*.html"],
+  content: ["./docs/**/*.html"
+  ],
 
   /*Minor Third Type Scale with base size 16px*/
   theme: {
