@@ -590,6 +590,18 @@ h1, h2, h3, h4, h5, h6, p {
   z-index: 20;
 }
 
+.z-0 {
+  z-index: 0;
+}
+
+.z-10 {
+  z-index: 10;
+}
+
+.z-50 {
+  z-index: 50;
+}
+
 .order-1 {
   order: 1;
 }
@@ -661,6 +673,10 @@ h1, h2, h3, h4, h5, h6, p {
 
 .mr-auto {
   margin-right: auto;
+}
+
+.mt-\[100vh\] {
+  margin-top: 100vh;
 }
 
 .block {

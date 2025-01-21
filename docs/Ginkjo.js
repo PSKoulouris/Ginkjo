@@ -57,11 +57,10 @@ function switchCarouselItems(carouselClass) {
 
     // Fade out the current item
     currentItem.classList.remove('opacity-100', 'z-10');
-    currentItem.classList.add('opacity-0', 'z-0'); // Fade out the current item
+currentItem.classList.add('opacity-0', 'z-0', 'absolute'); // Add 'absolute'
 
-    // Fade in the next item
-    nextItem.classList.remove('opacity-0', 'z-0');
-    nextItem.classList.add('opacity-100', 'z-10'); // Fade in the next item
+nextItem.classList.remove('opacity-0', 'z-0', 'absolute'); // Remove 'absolute'
+nextItem.classList.add('opacity-100', 'z-10');
 
     // Update the indices
     currentIndex = nextIndex;

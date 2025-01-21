@@ -1,4 +1,4 @@
-window.addEventListener("load", () => {
+/*window.addEventListener("load", () => {
     // Only activate the carousel for screens smaller or equal to 640px (sm breakpoint)
     if (window.innerWidth <= 640) {
       autoSlide();
@@ -43,4 +43,4 @@ window.addEventListener("load", () => {
       document.querySelector(".smartphone_carousel_item_active")
     );
   }
-  
+  */
