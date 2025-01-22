@@ -919,6 +919,18 @@ h1, h2, h3, h4, h5, h6, p {
   font-size: 1.728rem;
 }
 
+.text-8xl {
+  font-size: 6.192rem;
+}
+
+.text-md {
+  font-size: 1.2rem;
+}
+
+.text-base {
+  font-size: 1rem;
+}
+
 .leading-none {
   line-height: 1;
 }
@@ -1016,5 +1028,17 @@ h1, h2, h3, h4, h5, h6, p {
 
   .lg\:grid-cols-12 {
     grid-template-columns: repeat(12, minmax(0, 1fr));
+  }
+
+  .lg\:text-10xl {
+    font-size: 8.917rem;
+  }
+
+  .lg\:text-xl {
+    font-size: 1.728rem;
+  }
+
+  .lg\:text-lg {
+    font-size: 1.44rem;
   }
 }
