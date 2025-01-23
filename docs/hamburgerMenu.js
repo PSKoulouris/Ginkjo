@@ -11,6 +11,6 @@ const links = document.querySelectorAll('#menu a');
 
 links.forEach(link => {
     link.addEventListener('click', () => {
-        menu.classList.add('hidden'); // Close the menu when any link is clicked
+        menu.classList.add("-translate-x-full"); // Close the menu when any link is clicked
     });
 });
