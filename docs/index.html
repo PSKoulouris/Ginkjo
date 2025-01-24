@@ -314,9 +314,14 @@
         <div class=" col-span-1 lg:col-span-6 flex flex-col items-center justify-center order-2">
             <h1 class="text-8xl lg:text-10xl mb-5 text-center">Lunch</h1>
             <p class="text-md lg:text-xl px-[17px] items-center max-w-[355px] lg:max-w-[500px]">Rediscover traditional and modern ramen and bento boxes, artfully crafted for a replenishing midday escape.</p>
-            <a href="menu\Desktop - lunch menu.pdf" download target="_blank">
+            <!--menu desktop -->
+            <a href="menu\Desktop - lunch menu.pdf" target="_blank" class="hidden lg:block">
                 <button class="julius-sans-one text-base lg:text-lg text-white px-36 lg:px-48 py-3 mt-16 border border-gold rounded-lg hover:bg-gold">Menu</button>
             </a>
+            <!-- menu smartphone -->
+            <a href="menu_smartphone\lunch menu smartphone.pdf" target="_blank" class="block lg:hidden">
+              <button class="julius-sans-one text-base lg:text-lg text-white px-36 lg:px-48 py-3 mt-16 border border-gold rounded-lg hover:bg-gold">Menu</button>
+          </a>
         </div>
         <div class="col-span-1 lg:col-span-6 flex justify-end order-1">
             <img class="w-full h-auto" src="imagesBody_desktop\Lunch_810_1512x1964_89_desktop_optimized.jpg" alt="lunchImage" loading="lazy">
