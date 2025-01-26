@@ -54,14 +54,14 @@
     <!-- Sliding Hamburger Menu -->
     <div id="menu" class="fixed top-0 left-0 w-[75%] h-full bg-black transform -translate-x-full transition-transform duration-300 lg:hidden">
         <img src="imagesHamburger\iphone16_sideMenu_upper.jpg" alt="Hamburger image" class="w-full h-auto">
-            <div class="flex flex-col items-center p-6 space-y-4 text-white">
-                <a href="#home" class="julius-sans-one text-md hover:bg-gold py-3 px-16">Home</a>
-                <a href="#about" class="julius-sans-one text-md hover:bg-gold py-3 px-16">About Us</a>
-                <a href="#lunch" class="julius-sans-one text-md hover:bg-gold py-3 px-16">Lunch</a>
-                <a href="#afternoon" class="julius-sans-one text-md hover:bg-gold py-3 px-16">Afternoon</a>
-                <a href="#dinner" class="julius-sans-one text-md hover:bg-gold py-3 px-16">Dinner</a>
-                <a href="#drinks" class="julius-sans-one text-md hover:bg-gold py-3 px-16">Drinks</a>
-                <a href="#findUs" class="julius-sans-one text-md hover:bg-gold py-3 px-16">Find Us</a>
+            <div class="flex flex-col items-center p-6 space-y-1 md:space-y-4 text-white">
+                <a href="#home" class="julius-sans-one  text-base md:text-md hover:bg-gold py-3 px-16">Home</a>
+                <a href="#about" class="julius-sans-one text-base md:text-md hover:bg-gold py-3 px-16">About Us</a>
+                <a href="#lunch" class="julius-sans-one text-base md:text-md hover:bg-gold py-3 px-16">Lunch</a>
+                <a href="#afternoon" class="julius-sans-one text-base md:text-md hover:bg-gold py-3 px-16">Afternoon</a>
+                <a href="#dinner" class="julius-sans-one text-base md:text-md hover:bg-gold py-3 px-16">Dinner</a>
+                <a href="#drinks" class="julius-sans-one text-base md:text-md hover:bg-gold py-3 px-16">Drinks</a>
+                <a href="#findUs" class="julius-sans-one text-base md:text-md hover:bg-gold py-3 px-16">Find Us</a>
             </div>
         <img src="imagesHamburger\iphone16_sideMenu_lower.jpg" alt="hamburger image" class="w-full h-auto">
     </div>
@@ -299,8 +299,8 @@
 <section id = "about" class="w-full pb-16 lg:pb-0 lg:h-screen bg-black lg:overflow-hidden">   
     <div class="grid grid-cols-1 gap-14 lg:gap-0 lg:grid-cols-12">
         <div class="col-span-1 order-2 lg:order-1 lg:col-span-6 flex flex-col items-center justify-center">
-            <h1 class=" text-8xl lg:text-10xl mb-5 text-center">Ginkjo,</h1>
-            <p class="text-md lg:text-xl px-[17px] max-w-[370px] lg:max-w-[500px]">an immersive mindful escape from the bustle of city life, where the artistry of Japanese cuisine unfolds in a seamless blend of tradition and modern technique.</p>
+            <h1 class=" text-7xl md:text-8xl lg:text-10xl text-center">Ginkjo</h1>
+            <p class="text-base md:text-md lg:text-xl px-[17px] max-w-[310px] md:max-w-[370px] lg:max-w-[500px]">An immersive mindful escape from the bustle of city life where the artistry of Japanese cuisine unfolds in a seamless blend of tradition and modern technique.</p>
         </div>
         <div class=" col-span-1 order-1 lg:order-2 lg:col-span-6 flex justify-end">
             <img class="w-full h-auto" src="imagesBody_desktop/gingo_leaf_89_1512x1964_final.jpg" alt="aboutImage" loading="lazy">
@@ -312,15 +312,15 @@
 <section id="lunch" class="w-full pb-16 lg:pb-0 lg:h-screen bg-black lg:overflow-hidden">
     <div class="grid grid-cols-1 gap-16 lg:gap-0 lg:grid-cols-12">
         <div class=" col-span-1 lg:col-span-6 flex flex-col items-center justify-center order-2">
-            <h1 class="text-8xl lg:text-10xl mb-5 text-center">Lunch</h1>
-            <p class="text-md lg:text-xl px-[17px] items-center max-w-[355px] lg:max-w-[500px]">Rediscover traditional and modern ramen and bento boxes, artfully crafted for a replenishing midday escape.</p>
+            <h1 class="text-7xl md:text-8xl lg:text-10xl text-center">Lunch</h1>
+            <p class="text-base md:text-md lg:text-xl px-[17px] items-center max-w-[305px] md:max-w-[355px] lg:max-w-[500px]">Rediscover traditional and modern ramen and bento boxes, artfully crafted for a replenishing midday escape.</p>
             <!--menu desktop -->
             <a href="menu\Desktop - lunch menu.pdf" target="_blank" class="hidden lg:block">
-                <button class="julius-sans-one text-base lg:text-lg text-white px-36 lg:px-48 py-3 mt-16 border border-gold rounded-lg hover:bg-gold">Menu</button>
+                <button class="julius-sans-one lg:text-lg text-white px-36 lg:px-48 py-3 mt-16 border border-gold rounded-lg hover:bg-gold">Menu</button>
             </a>
             <!-- menu smartphone -->
             <a href="menu_smartphone\lunch menu smartphone 2.pdf" target="_blank" class="block lg:hidden">
-              <button class="julius-sans-one text-base lg:text-lg text-white px-36 lg:px-48 py-3 mt-16 border border-gold rounded-lg hover:bg-gold">Menu</button>
+              <button class="julius-sans-one text-base text-white px-28 md:px-36 py-3 mt-16 border border-gold rounded-lg hover:bg-gold">Menu</button>
           </a>
         </div>
         <div class="col-span-1 lg:col-span-6 flex justify-end order-1">
@@ -333,10 +333,15 @@
 <section id="afternoon" class="w-full pb-16 lg:pb-0 lg:h-screen bg-black lg:overflow-hidden">   
     <div class="grid grid-cols-1 gap-16 lg:gap-0 lg:grid-cols-12">
         <div class="col-span-1 order-2 lg:order-1 lg:col-span-6 flex flex-col items-center justify-center">
-            <h1 class="text-8xl lg:text-10xl mb-5 text-center leading-none">After Noon</h1>
-            <p class="text-md lg:text-xl px-[17px] ml-16 max-w-[365px] lg:max-w-[480px]">The fusion of serenity and refinement in a tea ceremony crafted to captivate.</p>
-            <a href="menu\Desktop - teaAfternoon menu.pdf" download target="_blank">
-                  <button class="julius-sans-one text-base lg:text-lg text-white px-32 lg:px-48 py-3 mt-16 border border-gold rounded-lg hover:bg-gold">Menu</button>
+            <h1 class="text-7xl md:max-w-[370px] md:text-8xl lg:text-10xl mb-5 text-center leading-none">After Noon</h1>
+            <p class="text-base md:text-md lg:text-xl ml-16 max-w-[270px] md:max-w-[330px] lg:max-w-[480px]">The fusion of serenity and refinement in a tea ceremony crafted to captivate.</p>
+            <!-- menu desktop -->
+            <a href="menu\Desktop - teaAfternoon menu.pdf" target="_blank" class="hidden lg:block">
+                  <button class="julius-sans-one text-base lg:text-lg text-white px-24 lg:px-48 py-3 mt-16 border border-gold rounded-lg hover:bg-gold">Menu</button>
+            </a>
+            <!-- menu smartphone -->
+            <a href="menu_smartphone\afternoon tea menu smartphone.pdf" target="_blank" class="block lg:hidden">
+                <button class="julius-sans-one text-base text-white px-24 md:px-32 py-3 mt-16 border border-gold rounded-lg hover:bg-gold">Menu</button>
             </a>
         </div>
         <div class="col-span-1 order-1 lg:order-2 lg:col-span-6 flex justify-end">
@@ -349,10 +354,15 @@
 <section id="dinner" class="w-full pb-16 lg:pb-0 lg:h-screen bg-black lg:overflow-hidden">  
     <div class="grid grid-cols-1 gap-16 lg:gap-0 lg:grid-cols-12">
         <div class="col-span-1 lg:col-span-6 flex flex-col items-center justify-center order-2">
-            <h1 class="text-8xl lg:text-10xl mb-5 text-center">Dinner</h1>
-            <p class="text-md lg:text-xl px-[17px] max-w-[400px] lg:max-w-[550px] ml-4">Unveil the intimate connection between Japanese tradition and modernity.</p>
-            <a href="menu\Desktop - Dinner menu.pdf" download target="_blank">
-                <button class="julius-sans-one text-base lg:text-lg text-white  px-40 lg:px-56 py-3 mt-16 border border-gold rounded-lg hover:bg-gold">Menu</button>
+            <h1 class="text-7xl md:text-8xl lg:text-10xl text-center">Dinner</h1>
+            <p class="text-base md:text-md lg:text-xl px-[17px] max-w-[350px] md:max-w-[400px] lg:max-w-[550px] ml-4">Unveil the intimate connection between Japanese tradition and modernity.</p>
+            <!-- menu desktop -->
+            <a href="menu\Desktop - Dinner menu.pdf" target="_blank"        class="hidden lg:block">
+                <button class="julius-sans-one lg:text-lg text-white px-32 lg:px-56 py-3 mt-16 border border-gold rounded-lg hover:bg-gold">Menu</button>
+            </a>
+            <!-- menu smartphone -->
+            <a href="menu_smartphone\Dinner menu smartphone.pdf" target="_blank" class="block lg:hidden">
+              <button class="julius-sans-one text-base text-white px-32 md:px-40 py-3 mt-16 border border-gold rounded-lg hover:bg-gold">Menu</button>
             </a>
       </div>
         <div class=" col-span-1 lg:col-span-6 flex justify-end order-1">
@@ -365,11 +375,16 @@
 <section id="drinks" class="w-full pb-16 lg:pb-0 lg:h-screen bg-black lg:overflow-hidden">   
     <div class="grid grid-cols-1 gap-16 lg:gap-0 lg:grid-cols-12">
         <div class="col-span-1 order-2 lg:order-1 lg:col-span-6 flex flex-col items-center justify-center">
-            <h1 class="text-7xl lg:text-10xl mb-0 text-center">Drinks</h1>
-            <p class="text-base lg:text-xl px-[17px] max-w-[325px] lg:max-w-[530px] ml-4">The art of sake and Japanese spirits, where masterful craftsmanship guides you in exploring the delicate nuances of flavor.</p>
-            <a href="menu\Desktop - Drinks menu.pdf" download target="_blank">
-                <button class="julius-sans-one text-base lg:text-lg text-white  px-28 lg:px-[205px] py-3 mt-16 border border-gold rounded-lg hover:bg-gold">Menu</button>
+            <h1 class="text-7xl md:text-8xl lg:text-10xl text-center">Drinks</h1>
+            <p class="text-base md:text-md lg:text-xl px-[17px] max-w-[325px] md:max-w-[375px] lg:max-w-[530px] ml-4">The art of sake and Japanese spirits, where masterful craftsmanship guides you in exploring the delicate nuances of flavor.</p>
+            <!-- menu desktop -->
+            <a href="menu\Desktop - Drinks menu.pdf" target="_blank" class="hidden lg:block">
+                <button class="julius-sans-one text-white px-28 lg:px-[205px] py-3 mt-16 border border-gold rounded-lg hover:bg-gold">Menu</button>
             </a>
+            <!-- menu smartphone -->
+            <a href="menu_smartphone\drinks menu smartphone.pdf" target="_blank" class="block lg:hidden">
+              <button class="julius-sans-one text-base md:text-md md:px-32 text-white px-28 py-3 mt-16 border border-gold rounded-lg hover:bg-gold">Menu</button>
+          </a>
       </div>
         <div class="col-span-1 order-1 lg:order-2 lg:col-span-6 flex justify-end">
             <img class="w-full h-auto" src="imagesBody_desktop\Sake_2268_desktop_89_optimized.jpg" alt="lunchImage" loading="lazy">
@@ -388,7 +403,7 @@
         <div class="col-span-1 lg:col-span-6 flex flex-col justify-center items-center order-2">
             
             <div class="flex flex-col justify-center space-y-4">
-                    <h1 class="text-7xl lg:text-10xl ">Find Us</h1>
+                    <h1 class="text-7xl md:text-8xl lg:text-10xl ">Find Us</h1>
                     <div class="flex flex-row gap-[90px] lg:gap-[160px]"> 
                             <a href="https://www.x.com/your-profile" target="_blank" rel="noopener noreferrer">
                                 <i class="fa-brands fa-x-twitter text-white text-md lg:text-xl ml-4 hover:text-gold"></i>
@@ -410,7 +425,7 @@
                             <div class="flex flex-row space-x-10">
                                     <i class="fa-solid fa-map-pin text-white text-md lg:text-xl"></i>
                                 <div class="text-base lg:text-lg">
-                                    <p>XXX Rue du Pont</p>
+                                    <p>XXX Rue du XXXX</p>
                                     <p>L- 266X Pafendall</p>
                                     <p>Luxembourg</p>
                                 </div>
