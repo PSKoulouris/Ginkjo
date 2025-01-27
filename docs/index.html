@@ -44,10 +44,20 @@
     <!-- Hamburger Button for Smartphones only in column 3-->
     <div class="col-span-3 flex items-center -mt-14 mx-auto">   
         <button id="hamburger" class="p-2.5 lg:hidden ">
-            <div class="space-y-1">
-              <span class="block w-6 h-[3px] bg-white rounded-sm"></span>
-              <span class="block w-6 h-[3px] bg-white rounded-sm"></span>
-              <span class="block w-6 h-[3px] bg-white rounded-sm"></span>
+              <div class="space-y-1">
+                <!-- Top Line -->
+                <span id="line-1" class="block w-6 h-[3px] bg-white rounded-sm transform origin-center transition-all duration-300 ease-linear"></span>
+                <!-- Middle Line -->
+                <span id="line-2" class="block w-6 h-[3px] bg-white rounded-sm transition-all duration-300 ease-linear"></span>
+                <!-- Bottom Line -->
+                <span id="line-3" class="block w-6 h-[3px] bg-white rounded-sm transform origin-center transition-all duration-300 ease-linear"></span>
+            </div>
+        </button>
+        <!-- Cross Button to close the menu-->
+        <button id="cross" class="p-2.5 lg:hidden hidden">
+            <div class="relative w-6 h-6">
+                <span class="absolute top-1/2 left-0 w-full h-[3px] bg-white rounded-sm transform -translate-y-1/2 rotate-45"></span>
+                <span class="absolute top-1/2 left-0 w-full h-[3px] bg-white rounded-sm transform -translate-y-1/2 -rotate-45"></span>
             </div>
         </button>
     </div>
