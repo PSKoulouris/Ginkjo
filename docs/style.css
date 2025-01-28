@@ -691,6 +691,10 @@ h1, h2, h3, h4, h5, h6, p {
   aspect-ratio: 16 / 9;
 }
 
+.h-6 {
+  height: 1.5rem;
+}
+
 .h-\[3px\] {
   height: 3px;
 }
@@ -705,10 +709,6 @@ h1, h2, h3, h4, h5, h6, p {
 
 .h-full {
   height: 100%;
-}
-
-.h-6 {
-  height: 1.5rem;
 }
 
 .max-h-0 {
@@ -753,16 +753,6 @@ h1, h2, h3, h4, h5, h6, p {
 
 .-translate-x-full {
   --tw-translate-x: -100%;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.-translate-y-\[3px\] {
-  --tw-translate-y: -3px;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.translate-y-\[3px\] {
-  --tw-translate-y: 3px;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
@@ -1154,6 +1144,26 @@ h1, h2, h3, h4, h5, h6, p {
     margin-top: 10rem;
   }
 
+  .lg\:ml-20 {
+    margin-left: 5rem;
+  }
+
+  .lg\:ml-24 {
+    margin-left: 6rem;
+  }
+
+  .lg\:-ml-16 {
+    margin-left: -4rem;
+  }
+
+  .lg\:ml-16 {
+    margin-left: 4rem;
+  }
+
+  .lg\:ml-28 {
+    margin-left: 7rem;
+  }
+
   .lg\:block {
     display: block;
   }
@@ -1190,6 +1200,26 @@ h1, h2, h3, h4, h5, h6, p {
     max-width: 550px;
   }
 
+  .lg\:max-w-\[400px\] {
+    max-width: 400px;
+  }
+
+  .lg\:max-w-\[300px\] {
+    max-width: 300px;
+  }
+
+  .lg\:max-w-\[200px\] {
+    max-width: 200px;
+  }
+
+  .lg\:max-w-\[600px\] {
+    max-width: 600px;
+  }
+
+  .lg\:max-w-\[700px\] {
+    max-width: 700px;
+  }
+
   .lg\:grid-cols-12 {
     grid-template-columns: repeat(12, minmax(0, 1fr));
   }
@@ -1214,6 +1244,11 @@ h1, h2, h3, h4, h5, h6, p {
     overflow: hidden;
   }
 
+  .lg\:bg-gold {
+    --tw-bg-opacity: 1;
+    background-color: rgb(226 182 58 / var(--tw-bg-opacity, 1));
+  }
+
   .lg\:px-48 {
     padding-left: 12rem;
     padding-right: 12rem;
@@ -1229,8 +1264,21 @@ h1, h2, h3, h4, h5, h6, p {
     padding-right: 205px;
   }
 
+  .lg\:px-44 {
+    padding-left: 11rem;
+    padding-right: 11rem;
+  }
+
   .lg\:pb-0 {
     padding-bottom: 0px;
+  }
+
+  .lg\:pr-16 {
+    padding-right: 4rem;
+  }
+
+  .lg\:pl-16 {
+    padding-left: 4rem;
   }
 
   .lg\:text-10xl {
@@ -1243,5 +1291,13 @@ h1, h2, h3, h4, h5, h6, p {
 
   .lg\:text-xl {
     font-size: 1.728rem;
+  }
+
+  .lg\:tracking-tight {
+    letter-spacing: -0.025em;
+  }
+
+  .lg\:tracking-tighter {
+    letter-spacing: -0.05em;
   }
 }
