@@ -21,14 +21,13 @@
     <!-- Open graph and twitter card: SEO-->
     <meta property="og:title" content="Ginkjo - Luxury Japanese Restaurant in Luxembourg">
     <meta property="og:description" content="Enjoy fine dining, luxury tea afternoons, and exquisite lunch at Ginkjo, Luxembourg's premier Japanese restaurant.">
-    <meta property="og:image" content="https://pskoulouris.github.io/Ginkjo/imagesBody_desktop/gingo_leaf_89_1512x1964_final.jpg">
+    <meta property="og:image" content="https://pskoulouris.github.io/Ginkjo/favicon.png">
     <meta property="og:url" content="https://pskoulouris.github.io/Ginkjo/">
     <!--twitter card-->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Ginkjo - Luxury Japanese Restaurant in Luxembourg">
     <meta name="twitter:description" content="Experience exquisite Japanese cuisine with a luxury dinner, afternoon tea, and lunch at Ginkjo restaurant in Luxembourg.">
-    <meta name="twitter:image" content="https://pskoulouris.github.io/Ginkjo/imagesBody_desktop/gingo_leaf_89_1512x1964_final.jpg">
-
+    <meta name="twitter:image" content="https://pskoulouris.github.io/Ginkjo/favicon.png">
     <!-- SXO for logo image, first picture caroussel -->
     <link rel="preload" as="image" href="logoGinjo_translucid.png" type="image/png">
     <link rel="preload" as="image" href="imagesCaroussel/Image_caroussel11_169_optimized - Copy.webp" type="image/jpeg">
@@ -370,7 +369,15 @@
             <p class="text-base md:text-md lg:text-xl px-[17px] max-w-[310px] md:max-w-[370px] lg:max-w-[500px]">An immersive mindful escape from the bustle of city life where the artistry of Japanese cuisine unfolds in a seamless blend of tradition and modern technique.</p>
         </div>
         <div class=" col-span-1 order-1 lg:order-2 lg:col-span-6 flex justify-end">
-            <img class="w-full h-auto" src="imagesBody_desktop/gingo_leaf_89_1512x1964_final.jpg" alt="artistic Ginkjo leafs at japanese restaurant Ginkjo Luxembourg" loading="lazy">
+            <!--<img class="w-full h-auto" src="imagesBody_desktop/gingo_leaf_89_1512x1964_final.jpg" alt="artistic Ginkjo leafs at japanese restaurant Ginkjo Luxembourg" loading="lazy">-->
+            <picture>
+              <!-- Tablet & Desktop: 768px and above -->
+                  <source srcset="imagesBody_desktop/gingo_leaf_89_1512x1964_final.webp" media="(min-width: 768px)">
+              <!-- Smartphone: Below 768px (default fallback) -->
+                  <img class="w-full h-auto" src="imagesBody_mobile/gingo_leaf_89_1512x1964_final_mobile.webp" 
+                   alt="artistic Ginkjo leafs at japanese restaurant Ginkjo Luxembourg" 
+                   loading="lazy">
+            </picture>
         </div>
     </div>
 </section>
@@ -391,7 +398,15 @@
           </a>
         </div>
         <div class="col-span-1 lg:col-span-6 flex justify-end order-1">
-            <img class="w-full h-auto" src="imagesBody_desktop\Lunch_810_1512x1964_89_desktop_optimized.jpg" alt="traditional and modern ramen at japanese restaurant Ginkjo Luxembourg" loading="lazy">
+            <!--<img class="w-full h-auto" src="imagesBody_desktop\Lunch_810_1512x1964_89_desktop_optimized.jpg" alt="traditional and modern ramen at japanese restaurant Ginkjo Luxembourg" loading="lazy">-->
+            <picture>
+              <!-- Tablet & Desktop: 768px and above -->
+                  <source srcset="imagesBody_desktop\Lunch_810_1512x1964_89_desktop_optimized.webp" media="(min-width: 768px)">
+              <!-- Smartphone: Below 768px (default fallback) -->
+                  <img class="w-full h-auto" src="imagesBody_mobile\Lunch_810_1512x1964_89_desktop_optimized_mobile.webp" 
+                   alt="traditional and modern ramen at japanese restaurant Ginkjo Luxembourg" 
+                   loading="lazy">
+            </picture>
         </div>
     </div>
 </section>
@@ -400,7 +415,8 @@
 <section id="afternoon" class="w-full pb-16 lg:pb-0 lg:h-screen bg-black lg:overflow-hidden">   
     <div class="grid grid-cols-1 gap-16 lg:gap-0 lg:grid-cols-12">
         <div class="col-span-1 order-2 lg:order-1 lg:col-span-6 flex flex-col items-center justify-center">
-            <h2 class="text-7xl md:max-w-[370px] md:text-8xl lg:text-10xl mb-5 text-center leading-none ">After Noon</h2>
+            <h2 class="text-7xl md:max-w-[370px] md:text-8xl lg:text-10xl text-center leading-none ">After</h2>
+            <h2 class="text-7xl md:max-w-[370px] md:text-8xl lg:text-10xl mb-5 leading-none">Noon</h2>
             <p class="text-base md:text-md lg:text-xl ml-16 max-w-[270px] md:max-w-[330px] lg:max-w-[480px] lg:pl-16">The fusion of serenity and refinement in a tea ceremony crafted to captivate.</p>
             <!-- menu desktop -->
             <a href="menu\Desktop-ginkjo-tea-menu-japanese-restaurant-luxembourg.pdf" target="_blank" class="hidden lg:block">
@@ -412,7 +428,15 @@
             </a>
         </div>
         <div class="col-span-1 order-1 lg:order-2 lg:col-span-6 flex justify-end">
-            <img class="w-full h-auto" src="imagesBody_desktop\Tea ceremony_1_optimized_69_desktop.jpg" alt="tea afternoon at japanese restaurant Ginkjo Luxembourg" loading="lazy">
+            <!--<img class="w-full h-auto" src="imagesBody_desktop\Tea ceremony_1_optimized_69_desktop.jpg" alt="tea afternoon at japanese restaurant Ginkjo Luxembourg" loading="lazy">-->
+            <picture>
+              <!-- Tablet & Desktop: 768px and above -->
+                  <source srcset="imagesBody_desktop\Tea ceremony_1_optimized_69_desktop.webp" media="(min-width: 768px)">
+              <!-- Smartphone: Below 768px (default fallback) -->
+                  <img class="w-full h-auto" src="imagesBody_mobile\Tea ceremony_1_optimized_69_mobile.webp" 
+                   alt="tea afternoon at japanese restaurant Ginkjo Luxembourg" 
+                   loading="lazy">
+            </picture>
         </div>
     </div>
 </section>
@@ -433,7 +457,15 @@
             </a>
       </div>
         <div class=" col-span-1 lg:col-span-6 flex justify-end order-1">
-            <img class="w-full h-auto" src="imagesBody_desktop\dish_6_89_1512x1964_optimized_final.jpg" alt="refineddinner at japanese restaurant Ginkjo Luxembourg" loading="lazy">
+            <!--<img class="w-full h-auto" src="imagesBody_desktop\dish_6_89_1512x1964_optimized_final.jpg" alt="refineddinner at japanese restaurant Ginkjo Luxembourg" loading="lazy">-->
+            <picture>
+              <!-- Tablet & Desktop: 768px and above -->
+                  <source srcset="imagesBody_desktop\dish_6_89_1512x1964_optimized_final.webp" media="(min-width: 768px)">
+              <!-- Smartphone: Below 768px (default fallback) -->
+                  <img class="w-full h-auto" src="imagesBody_mobile\dish_6_89_1512x1964_optimized_final_mobile.webp" 
+                   alt="refined dinner at japanese restaurant Ginkjo Luxembourg" 
+                   loading="lazy">
+            </picture>
         </div>
     </div>
 </section>
@@ -454,7 +486,15 @@
           </a>
       </div>
         <div class="col-span-1 order-1 lg:order-2 lg:col-span-6 flex justify-end">
-            <img class="w-full h-auto" src="imagesBody_desktop\Sake_2268_desktop_89_optimized.jpg" alt="sake at japanese restaurant Ginkjo Luxembourg" loading="lazy">
+            <!--<img class="w-full h-auto" src="imagesBody_desktop\Sake_2268_desktop_89_optimized.jpg" alt="sake at japanese restaurant Ginkjo Luxembourg" loading="lazy">-->
+            <picture>
+              <!-- Tablet & Desktop: 768px and above -->
+                  <source srcset="imagesBody_desktop\Sake_2268_desktop_89_optimized.webp" media="(min-width: 768px)">
+              <!-- Smartphone: Below 768px (default fallback) -->
+                  <img class="w-full h-auto" src="imagesBody_mobile\Sake_2268_desktop_89_optimized_mobile.webp" 
+                   alt="sake at japanese restaurant Ginkjo Luxembourg" 
+                   loading="lazy">
+            </picture>
         </div> 
     </div>
 </section>
