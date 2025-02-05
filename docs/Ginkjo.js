@@ -72,6 +72,7 @@ document.addEventListener('DOMContentLoaded', function () {
   // Trigger carousel switching for both desktop and smartphone versions
   switchCarouselItems('.carousel_item'); // Desktop version
   switchCarouselItems('.smartphone_carousel_item'); // Smartphone version
+  switchCarouselItems('.iPad_carousel_item'); // iPad version
 });
   
   
