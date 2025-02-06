@@ -711,6 +711,10 @@ h1, h2, h3, h4, h5, h6, p {
   height: 100%;
 }
 
+.h-\[100vh\] {
+  height: 100vh;
+}
+
 .max-h-0 {
   max-height: 0px;
 }
@@ -853,6 +857,10 @@ h1, h2, h3, h4, h5, h6, p {
 
 .overflow-hidden {
   overflow: hidden;
+}
+
+.overflow-y-auto {
+  overflow-y: auto;
 }
 
 .overflow-x-hidden {
@@ -1066,9 +1074,19 @@ h1, h2, h3, h4, h5, h6, p {
   max-height: 1500px;
 }
 
+@media (min-width: 640px) {
+  .sm\:block {
+    display: block;
+  }
+}
+
 @media (min-width: 768px) {
   .md\:hidden {
     display: none;
+  }
+
+  .md\:w-\[40\%\] {
+    width: 40%;
   }
 
   .md\:max-w-\[330px\] {
@@ -1095,6 +1113,10 @@ h1, h2, h3, h4, h5, h6, p {
     --tw-space-y-reverse: 0;
     margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
     margin-bottom: calc(1rem * var(--tw-space-y-reverse));
+  }
+
+  .md\:overflow-y-auto {
+    overflow-y: auto;
   }
 
   .md\:px-32 {
